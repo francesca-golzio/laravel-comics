@@ -10,3 +10,17 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+
+header {
+
+    div.hero{
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
+        height: 300px;
+    }
+
+    img#logo{
+        width: 80px;
+    }
+}
