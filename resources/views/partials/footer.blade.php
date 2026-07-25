@@ -12,22 +12,22 @@
       </div>
 
       <div class="d-flex buy_nav_item">
-        <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="digital comics">
+        <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="DC merchandise">
         <div class="text-uppercase">DC MERCHANDISE</div>
       </div>
 
       <div class="d-flex buy_nav_item">
-        <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="digital comics">
+        <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="subscriptions">
         <div class="text-uppercase">SUBSCRIPTION</div>
       </div>
 
       <div class="d-flex buy_nav_item">
-        <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="digital comics">
+        <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="comic shop locator">
         <div class="text-uppercase">COMIC SHOP LOCATOR</div>
       </div>
       
       <div class="d-flex buy_nav_item">
-        <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="digital comics">
+        <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="DC power Visa">
         <div class="text-uppercase">DC POWER VISA</div>
       </div>
       
