@@ -95,7 +95,21 @@
 
   {{-- BOTTOM FOOTER --}}
   <section class="bottom_footer">
-    <div class="container">
+    <div class="container d-flex justify-content-between align-items-center">
+
+    <button class="text-uppercase">sign-up now!</button>
+    
+    <div class="d-flex align-items-center gap-4 social">
+
+      <span>FOLLOW US</span>
+      
+      <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook">
+      <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter">
+      <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube">
+      <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest">
+      <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope">
+
+    </div>
 
     </div>
   </section>
