@@ -53,6 +53,10 @@ header {
 
 /* __ Footer __ */
 
+footer {
+    width: 100%;
+}
+
 div.footer_container {
     background-color: #303030;
     color: #fff;
@@ -60,7 +64,7 @@ div.footer_container {
     flex-direction: column;
 }
 
-section.top_footer {    
+section.top_footer {
     background-color: #0282f9;
     padding: 3rem 0;
 
@@ -77,8 +81,47 @@ section.top_footer {
 }
 
 section.main_footer {
+    background-image: url('../img/footer-bg.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #9f9f9f;
-    height: 100px;
+    height: 400px;
+
+    .footer_logo_container {
+        background-image: url('../img/dc-logo-bg.png');
+        object-fit: cover;
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+
+    }
+
+    nav {
+        padding: 2.5rem 0;
+    }
+
+    .footer_nav_group {
+        padding: 0;
+        margin: 0 1rem;
+
+        h4 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            font-size: 0.8rem;
+            list-style: none;
+            text-transform: capitalize;
+            padding: 0;
+        }
+
+
+    }
 }
 
 section.bottom_footer {
