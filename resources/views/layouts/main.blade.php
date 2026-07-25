@@ -13,6 +13,6 @@
   
   @yield('contenuto')
   
-  <footer> -- qui footer --</footer>
+  @include('partials.footer')
 </body>
 </html>

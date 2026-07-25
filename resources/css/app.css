@@ -13,6 +13,8 @@
 }
 
 
+/* __ Header __ */
+
 header {
 
 
@@ -47,4 +49,38 @@ header {
         background-size: cover;
         height: 300px;
     }
+}
+
+/* __ Footer __ */
+
+div.footer_container {
+    background-color: #303030;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+section.top_footer {    
+    background-color: #0282f9;
+    padding: 3rem 0;
+
+    .buy_nav_item {
+        display: flex;
+        align-items: center;
+
+        img {
+            max-height: 50px;
+            max-width: 50px;
+            margin-right: 1rem;
+        }
+    }
+}
+
+section.main_footer {
+    color: #9f9f9f;
+    height: 100px;
+}
+
+section.bottom_footer {
+    height: 100px;
 }
