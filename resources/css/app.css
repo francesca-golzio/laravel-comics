@@ -13,6 +13,13 @@
 }
 
 
+/* __ Commons __ */
+
+a {
+    color: #0282f9;
+}
+
+
 /* __ Header __ */
 
 header {
@@ -59,6 +66,7 @@ main {
     color: #fff;
 }
 
+
 div.half_up_label {
     background-color: #0282f9;
     font-size: 2rem;
@@ -80,9 +88,17 @@ div.half_up_label {
 }
 
 
+/* Home */
 
+.call_to_action span {
+    color: #0282f9;
+    font-size: 1.25rem;
+}
 
-
+h4 {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
 
 
 
