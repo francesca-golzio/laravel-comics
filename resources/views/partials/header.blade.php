@@ -2,7 +2,9 @@
 
   <div class="container d-flex justify-content-between text-uppercase py-2">    
     
-    <img class="align-self-top" id="logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+    <a href="{{ route('home') }}">
+      <img class="align-self-top" id="logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+    </a>
 
     <nav class="navbar navbar-expand-lg align-self-bottom p-0">
       <div class="container-fluid">        
