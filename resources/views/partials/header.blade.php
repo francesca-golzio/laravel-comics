@@ -1,6 +1,6 @@
 <header>
 
-  <div class="container d-flex justify-content-between text-uppercase py-2">    
+  <div class="container d-flex justify-content-between text-uppercase pt-2">    
     
     <a href="{{ route('home') }}">
       <img class="align-self-top" id="logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
@@ -15,7 +15,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link current" href="{{ route('comics') }}">comics</a>
+              <a class="nav-link {{request()->routeIs('comics') ? 'current' : ''}}" href="{{ route('comics') }}">comics</a>
             </li>
 
             <li class="nav-item">
