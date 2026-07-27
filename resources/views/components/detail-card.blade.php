@@ -2,7 +2,7 @@
 
 <div class="container">
     @php
-    $comic = config('comics')[$index];
+    $comic = config("comics.$index");
     @endphp
     
     <div class="half_up_label text-uppercase">{{ $comic['title'] }}</div>
