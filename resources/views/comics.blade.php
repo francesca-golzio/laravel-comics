@@ -2,7 +2,7 @@
 @extends('layouts.main')
 
 @php
-$comics = require('../././config/comics.php');
+$comics = config('comics');
 @endphp
 
 @section('contenuto')

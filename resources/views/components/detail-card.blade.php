@@ -1,7 +1,8 @@
+@props(['index'])
+
 <div class="container">
     @php
-    $comics = require('../././config/comics.php');
-    $comic = $comics[$index];
+    $comic = config('comics')[$index];
     @endphp
     
     <div class="half_up_label text-uppercase">{{ $comic['title'] }}</div>
