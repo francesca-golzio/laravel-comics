@@ -22,6 +22,7 @@ $sample_comics = array_slice($comics, 0, 6);
     <div class="row row-cols-6  d-flex justify-content-between">
       @foreach($sample_comics as $comic)
       <x-card>
+        <x-slot:index>{{ $loop->index }}</x-slot>
         <x-slot:imageUrl>{{ $comic['thumb'] }}</x-slot>        
         <x-slot:title>{{ $comic['title'] }}</x-slot>
       </x-card>
