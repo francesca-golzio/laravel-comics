@@ -118,6 +118,7 @@ div.footer_container {
 section.top_footer {
     background-color: #0282f9;
     padding: 2.5rem 0;
+    text-wrap: nowrap;
 
     .buy_nav_item {
         display: flex;
@@ -132,6 +133,7 @@ section.top_footer {
 }
 
 section.main_footer {
+    text-wrap: nowrap;
     background-image: url('../img/footer-bg.jpg');
     object-fit: cover;
     background-repeat: no-repeat;
@@ -157,10 +159,11 @@ section.main_footer {
 
     .footer_nav_group {
         padding: 0;
-        margin: 0 1rem;
+        margin: 0 2rem;
 
         h4 {
             color: #fff;
+            margin: 0;
             margin-bottom: 1rem;
         }
 
