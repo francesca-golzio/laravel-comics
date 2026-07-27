@@ -6,3 +6,219 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+// @import 'bootstrap';
+
+/* __ Commons __ */
+
+a {
+  color: #0282f9;
+}
+
+
+/* __ Header __ */
+
+header {
+
+
+  img#logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  nav {
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+
+    ul {
+      li {
+
+        .current {
+          color: #0c7cec;
+          padding-bottom: 2rem;
+          border-bottom: 10px solid #0c7cec;
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  div.hero {
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    height: 300px;
+  }
+}
+
+
+/* __ Main __ */
+
+main {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+
+div.half_up_label {
+  background-color: #0282f9;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  position: relative;
+  top: -2rem;
+}
+
+/* Cards */
+.card_img_container {
+  aspect-ratio: 1/1;
+  overflow: hidden;
+
+  .card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .card_img[src*="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY"],
+  .card_img[src*="https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm"] {
+    transform: scale(1.6);
+    transform-origin: top center;
+  }
+}
+
+.detail_cover_container {
+  aspect-ratio: 9/11;
+  overflow: hidden;
+
+  .detail_cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .detail_cover[src*="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY"],
+  .detail_cover[src*="https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm"] {
+    transform: scale(1.4);
+    transform-origin: top center;
+  }
+}
+
+/* Home */
+
+.call_to_action span {
+  color: #0282f9;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+
+
+/* __ Footer __ */
+
+footer {
+  width: 100%;
+}
+
+div.footer_container {
+  background-color: #303030;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+section.top_footer {
+  background-color: #0282f9;
+  padding: 2.5rem 0;
+  text-wrap: nowrap;
+
+  .buy_nav_item {
+    display: flex;
+    align-items: center;
+
+    img {
+      max-height: 50px;
+      max-width: 50px;
+      margin-right: 1rem;
+    }
+  }
+}
+
+section.main_footer {
+  text-wrap: nowrap;
+  background-image: url('../img/footer-bg.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #9f9f9f;
+  height: 400px;
+
+  .footer_logo_container {
+    background-image: url('../img/dc-logo-bg.png');
+    object-fit: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+  }
+
+  nav {
+    padding: 2.5rem 0;
+  }
+
+  .footer_nav_group {
+    padding: 0;
+    margin: 0 2rem;
+
+    h4 {
+      color: #fff;
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      font-size: 0.8rem;
+      list-style: none;
+      text-transform: capitalize;
+      padding: 0;
+    }
+  }
+}
+
+section.bottom_footer {
+  padding: 1.75rem 0;
+
+  button {
+    appearance: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    border: 2.5px solid #0282f9;
+    padding: 0.5rem 1rem;
+  }
+
+  .social {
+
+    span {
+      color: #0282f9;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    img {
+      width: 2.25rem;
+      height: 2.25rem;
+    }
+  }
+}
